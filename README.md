@@ -13,6 +13,7 @@
 | `ppocrv5-ko-v1` | `korean_PP-OCRv5_rec_mobile.onnx` | 13,488,748 B | `cd6e2ea50f6943ca7271eb8c56a877a5a90720b7047fe9c41a2e541a25773c9b` | 위와 같음 | 위와 같음 |
 | `ppocrv5-ko-v1` | `ppocrv5_korean_dict.txt` | 47,451 B | `a88071c68c01707489baa79ebe0405b7beb5cca229f4fc94cc3ef992328802d7` | 위와 같음 (인식 사전) | 위와 같음 |
 | `yunet-v1` | `face_detection_yunet_2023mar.onnx` | 232,589 B | `8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4` | [opencv/face_detection_yunet](https://huggingface.co/opencv/face_detection_yunet) (OpenCV Zoo) | MIT ([전문](LICENSES/YuNet-MIT.txt)) |
+| `clip-vitb32-v1` | `clip-vit-b32-vision-int8.onnx` | 89,117,001 B | `583fd1110a514667812fee7d684952aaf82a99b959760c8d7dca7e0ab9839299` | [Xenova/clip-vit-base-patch32](https://huggingface.co/Xenova/clip-vit-base-patch32) (ONNX 변환본), 원 모델 [openai/CLIP](https://github.com/openai/CLIP) | MIT ([전문](LICENSES/CLIP-MIT.txt)). 모델 카드는 배포용 사용을 연구 범위 밖으로 둠 → 시험용 (S-7) |
 
 내려받기 주소: `https://github.com/seoulmetroddm/lost-camera-models/releases/download/<태그>/<파일>`
 
