@@ -12,6 +12,7 @@
 | `ppocrv5-ko-v1` | `ch_PP-OCRv5_det_mobile.onnx` | 4,819,576 B | `4d97c44a20d30a81aad087d6a396b08f786c4635742afc391f6621f5c6ae78ae` | [RapidAI/RapidOCR ModelScope](https://www.modelscope.cn/models/RapidAI/RapidOCR) (ONNX 변환본), 원 모델 [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) PP-OCRv5 | 원 모델 Apache-2.0 ([전문](LICENSES/PaddleOCR-Apache-2.0.txt)), 변환·배포 RapidOCR Apache-2.0 ([전문](LICENSES/RapidOCR-Apache-2.0.txt)) |
 | `ppocrv5-ko-v1` | `korean_PP-OCRv5_rec_mobile.onnx` | 13,488,748 B | `cd6e2ea50f6943ca7271eb8c56a877a5a90720b7047fe9c41a2e541a25773c9b` | 위와 같음 | 위와 같음 |
 | `ppocrv5-ko-v1` | `ppocrv5_korean_dict.txt` | 47,451 B | `a88071c68c01707489baa79ebe0405b7beb5cca229f4fc94cc3ef992328802d7` | 위와 같음 (인식 사전) | 위와 같음 |
+| `yunet-v1` | `face_detection_yunet_2023mar.onnx` | 232,589 B | `8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4` | [opencv/face_detection_yunet](https://huggingface.co/opencv/face_detection_yunet) (OpenCV Zoo) | MIT ([전문](LICENSES/YuNet-MIT.txt)) |
 
 내려받기 주소: `https://github.com/seoulmetroddm/lost-camera-models/releases/download/<태그>/<파일>`
 
