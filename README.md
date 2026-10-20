@@ -9,6 +9,9 @@
 | 태그 | 파일 | 크기 | SHA-256 | 출처 | 라이선스 |
 |---|---|---|---|---|---|
 | `u2netp-v1` | `u2netp.onnx` | 4,574,861 B | `309c8469258dda742793dce0ebea8e6dd393174f89934733ecc8b14c76f4ddd8` | [danielgatis/rembg v0.0.0](https://github.com/danielgatis/rembg/releases/tag/v0.0.0) (ONNX 변환본), 원 모델 [xuebinqin/U-2-Net](https://github.com/xuebinqin/U-2-Net) | 원 모델 Apache-2.0 ([전문](LICENSES/U-2-Net-Apache-2.0.txt)), 변환·배포 rembg MIT ([전문](LICENSES/rembg-MIT.txt)) |
+| `ppocrv5-ko-v1` | `ch_PP-OCRv5_det_mobile.onnx` | 4,819,576 B | `4d97c44a20d30a81aad087d6a396b08f786c4635742afc391f6621f5c6ae78ae` | [RapidAI/RapidOCR ModelScope](https://www.modelscope.cn/models/RapidAI/RapidOCR) (ONNX 변환본), 원 모델 [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) PP-OCRv5 | 원 모델 Apache-2.0 ([전문](LICENSES/PaddleOCR-Apache-2.0.txt)), 변환·배포 RapidOCR Apache-2.0 ([전문](LICENSES/RapidOCR-Apache-2.0.txt)) |
+| `ppocrv5-ko-v1` | `korean_PP-OCRv5_rec_mobile.onnx` | 13,488,748 B | `cd6e2ea50f6943ca7271eb8c56a877a5a90720b7047fe9c41a2e541a25773c9b` | 위와 같음 | 위와 같음 |
+| `ppocrv5-ko-v1` | `ppocrv5_korean_dict.txt` | 47,451 B | `a88071c68c01707489baa79ebe0405b7beb5cca229f4fc94cc3ef992328802d7` | 위와 같음 (인식 사전) | 위와 같음 |
 
 내려받기 주소: `https://github.com/seoulmetroddm/lost-camera-models/releases/download/<태그>/<파일>`
 
