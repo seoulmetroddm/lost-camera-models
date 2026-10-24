@@ -14,6 +14,8 @@
 | `ppocrv5-ko-v1` | `ppocrv5_korean_dict.txt` | 47,451 B | `a88071c68c01707489baa79ebe0405b7beb5cca229f4fc94cc3ef992328802d7` | 위와 같음 (인식 사전) | 위와 같음 |
 | `yunet-v1` | `face_detection_yunet_2023mar.onnx` | 232,589 B | `8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4` | [opencv/face_detection_yunet](https://huggingface.co/opencv/face_detection_yunet) (OpenCV Zoo) | MIT ([전문](LICENSES/YuNet-MIT.txt)) |
 | `clip-vitb32-v1` | `clip-vit-b32-vision-int8.onnx` | 89,117,001 B | `583fd1110a514667812fee7d684952aaf82a99b959760c8d7dca7e0ab9839299` | [Xenova/clip-vit-base-patch32](https://huggingface.co/Xenova/clip-vit-base-patch32) (ONNX 변환본), 원 모델 [openai/CLIP](https://github.com/openai/CLIP) | MIT ([전문](LICENSES/CLIP-MIT.txt)). 모델 카드는 배포용 사용을 연구 범위 밖으로 둠 → 시험용 (S-7) |
+| `birefnet-lite-1024-v1` | `birefnet-lite-1024.onnx` | 123,224,205 B | `348c075771a9f6631d6ac991a1ac613d33910390cf943afa752f3a73c36fca03` | [runes/birefnet-lite-webgpu](https://huggingface.co/runes/birefnet-lite-webgpu) (WebGPU용 fp16 변환본), 원 모델 [ZhengPeng7/BiRefNet](https://github.com/ZhengPeng7/BiRefNet) BiRefNet_lite | 원 모델 MIT ([전문](LICENSES/BiRefNet-MIT.txt)), 변환본 MIT (모델 카드). 시험용 (S-2b) |
+| `birefnet-lite-512-v1` | `birefnet-lite-512.onnx` | 98,720,674 B | `63f22c89f5ec08d251d9dda2c5deb500308837e9b3ca90a474772e30a617dc3f` | [Wattsey/birefnet-lite-512-webgpu](https://huggingface.co/Wattsey/birefnet-lite-512-webgpu) (WebGPU용 512px fp16 변환본), 원 모델 위와 같음 | 위와 같음. 시험용 (S-2b) |
 
 내려받기 주소: `https://github.com/seoulmetroddm/lost-camera-models/releases/download/<태그>/<파일>`
 
